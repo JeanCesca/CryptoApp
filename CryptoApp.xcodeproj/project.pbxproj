@@ -19,6 +19,12 @@
 		0F7D6796296C6ED600F758B2 /* CoinRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6795296C6ED600F758B2 /* CoinRollView.swift */; };
 		0F7D6798296C6F4800F758B2 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6797296C6F4800F758B2 /* PreviewProvider.swift */; };
 		0F7D679A296C721F00F758B2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6799296C721F00F758B2 /* Double.swift */; };
+		0F7D679D296C86EC00F758B2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D679C296C86EC00F758B2 /* HomeViewModel.swift */; };
+		0F7D67A0296C8B9C00F758B2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D679F296C8B9C00F758B2 /* CoinDataService.swift */; };
+		0F7D67A3296C93E800F758B2 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D67A2296C93E800F758B2 /* NetworkingManager.swift */; };
+		0FFD43EC296C9ACC00FBFDEC /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD43EB296C9ACC00FBFDEC /* CoinImageView.swift */; };
+		0FFD43EE296C9BEC00FBFDEC /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD43ED296C9BEC00FBFDEC /* CoinImageService.swift */; };
+		0FFD43F0296C9D5A00FBFDEC /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD43EF296C9D5A00FBFDEC /* CoinImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		0F7D6795296C6ED600F758B2 /* CoinRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRollView.swift; sourceTree = "<group>"; };
 		0F7D6797296C6F4800F758B2 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		0F7D6799296C721F00F758B2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		0F7D679C296C86EC00F758B2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0F7D679F296C8B9C00F758B2 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		0F7D67A2296C93E800F758B2 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		0FFD43EB296C9ACC00FBFDEC /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		0FFD43ED296C9BEC00FBFDEC /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		0FFD43EF296C9D5A00FBFDEC /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				0F7D6753296C567100F758B2 /* CryptoAppApp.swift */,
+				0F7D67A1296C93B500F758B2 /* Utilities */,
 				0F7D6783296C593200F758B2 /* Extensions */,
+				0F7D679E296C8B6F00F758B2 /* Services */,
 				0F7D6792296C633A00F758B2 /* Models */,
 				0F7D6786296C5B3E00F758B2 /* Core */,
 				0F7D6755296C567100F758B2 /* ContentView.swift */,
@@ -126,6 +140,7 @@
 		0F7D6789296C5B6000F758B2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0F7D679C296C86EC00F758B2 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -133,6 +148,7 @@
 		0F7D678C296C5C4100F758B2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0FFD43EA296C9A9800FBFDEC /* CoinImage */,
 				0F7D678D296C5C5B00F758B2 /* CircleButton */,
 			);
 			path = Components;
@@ -153,6 +169,32 @@
 				0F7D6793296C635900F758B2 /* CoinModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0F7D679E296C8B6F00F758B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D679F296C8B9C00F758B2 /* CoinDataService.swift */,
+				0FFD43ED296C9BEC00FBFDEC /* CoinImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F7D67A1296C93B500F758B2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D67A2296C93E800F758B2 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0FFD43EA296C9A9800FBFDEC /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD43EB296C9ACC00FBFDEC /* CoinImageView.swift */,
+				0FFD43EF296C9D5A00FBFDEC /* CoinImageViewModel.swift */,
+			);
+			path = CoinImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,15 +267,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7D67A0296C8B9C00F758B2 /* CoinDataService.swift in Sources */,
 				0F7D6756296C567100F758B2 /* ContentView.swift in Sources */,
+				0F7D679D296C86EC00F758B2 /* HomeViewModel.swift in Sources */,
 				0F7D678B296C5B7300F758B2 /* HomeView.swift in Sources */,
 				0F7D6796296C6ED600F758B2 /* CoinRollView.swift in Sources */,
+				0FFD43EC296C9ACC00FBFDEC /* CoinImageView.swift in Sources */,
 				0F7D6754296C567100F758B2 /* CryptoAppApp.swift in Sources */,
 				0F7D678F296C5C6800F758B2 /* CircleButtonView.swift in Sources */,
 				0F7D6785296C594700F758B2 /* Color.swift in Sources */,
+				0F7D67A3296C93E800F758B2 /* NetworkingManager.swift in Sources */,
 				0F7D6791296C5FEC00F758B2 /* CircleButtonAnimationView.swift in Sources */,
+				0FFD43F0296C9D5A00FBFDEC /* CoinImageViewModel.swift in Sources */,
 				0F7D6798296C6F4800F758B2 /* PreviewProvider.swift in Sources */,
 				0F7D679A296C721F00F758B2 /* Double.swift in Sources */,
+				0FFD43EE296C9BEC00FBFDEC /* CoinImageService.swift in Sources */,
 				0F7D6794296C635900F758B2 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
