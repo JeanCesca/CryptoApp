@@ -14,10 +14,42 @@
             filePath = "CryptoApp/Services/CoinImageService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "CoinImageService"
-            landmarkType = "3">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(coin:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "24F8A093-A787-44EF-BA21-19F7875BD0D2 - 9098c47c776cee43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoApp.CoinImageService.__allocating_init(coin: CryptoApp.CoinModel) -&gt; CryptoApp.CoinImageService"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/YouTube/Swiftful%20Thinking/CryptoApp/CryptoApp/Services/CoinImageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "24F8A093-A787-44EF-BA21-19F7875BD0D2 - 7c57b77027740497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CryptoApp.CoinImageService.init(coin: CryptoApp.CoinModel) -&gt; CryptoApp.CoinImageService"
+                  moduleName = "CryptoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/YouTube/Swiftful%20Thinking/CryptoApp/CryptoApp/Services/CoinImageService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
