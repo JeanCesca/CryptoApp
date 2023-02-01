@@ -23,6 +23,9 @@ struct CoinRollView: View {
         }
         .font(.subheadline)
         .padding(.vertical, 2)
+        .background(
+            Color.theme.background.opacity(0.001)
+        )
     }
 }
 
