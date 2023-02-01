@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "init(coin:)"
-            landmarkType = "7">
+            landmarkName = "CoinImageService"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "24F8A093-A787-44EF-BA21-19F7875BD0D2 - 9098c47c776cee43"
