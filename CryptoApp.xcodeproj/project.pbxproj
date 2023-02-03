@@ -20,6 +20,8 @@
 		0F7AF0F0298C3196006073A6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF0EF298C3196006073A6 /* Date.swift */; };
 		0F7AF0F2298C44D3006073A6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF0F1298C44D3006073A6 /* String.swift */; };
 		0F7AF0F6298C5751006073A6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF0F5298C5751006073A6 /* SettingsView.swift */; };
+		0F7AF0FA298D743F006073A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7AF0F9298D743F006073A6 /* LaunchScreen.storyboard */; };
+		0F7AF0FC298D7639006073A6 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AF0FB298D7639006073A6 /* LaunchView.swift */; };
 		0F7D6754296C567100F758B2 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6753296C567100F758B2 /* CryptoAppApp.swift */; };
 		0F7D6756296C567100F758B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7D6755296C567100F758B2 /* ContentView.swift */; };
 		0F7D675B296C567200F758B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7D675A296C567200F758B2 /* Preview Assets.xcassets */; };
@@ -63,6 +65,8 @@
 		0F7AF0EF298C3196006073A6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		0F7AF0F1298C44D3006073A6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0F7AF0F5298C5751006073A6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0F7AF0F9298D743F006073A6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F7AF0FB298D7639006073A6 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		0F7D6750296C567100F758B2 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7D6753296C567100F758B2 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		0F7D6755296C567100F758B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +149,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		0F7AF0F7298D7424006073A6 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AF0F8298D742F006073A6 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		0F7AF0F8298D742F006073A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AF0F9298D743F006073A6 /* LaunchScreen.storyboard */,
+				0F7AF0FB298D7639006073A6 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0F7D6747296C567100F758B2 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		0F7D6786296C5B3E00F758B2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F7AF0F7298D7424006073A6 /* Launch */,
 				0F7D678C296C5C4100F758B2 /* Components */,
 				0F7AF0F3298C570E006073A6 /* Settings */,
 				0F7D6787296C5B5300F758B2 /* Home */,
@@ -360,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7AF0FA298D743F006073A6 /* LaunchScreen.storyboard in Resources */,
 				0F7D675B296C567200F758B2 /* Preview Assets.xcassets in Resources */,
 				0F7D6762296C570300F758B2 /* Assets.xcassets in Resources */,
 			);
@@ -379,6 +402,7 @@
 				0F6FA87B298839B5006E0430 /* XMarkButton.swift in Sources */,
 				0F7D679D296C86EC00F758B2 /* HomeViewModel.swift in Sources */,
 				0F7AF0F6298C5751006073A6 /* SettingsView.swift in Sources */,
+				0F7AF0FC298D7639006073A6 /* LaunchView.swift in Sources */,
 				0F7D678B296C5B7300F758B2 /* HomeView.swift in Sources */,
 				0FFD43F2296DB38A00FBFDEC /* LocalFileManager.swift in Sources */,
 				0F7AF0E8298BFB95006073A6 /* CoinDetailModel.swift in Sources */,
@@ -534,6 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoApp/Preview Content\"";
@@ -544,6 +569,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -568,6 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoApp/Preview Content\"";
@@ -578,6 +605,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
