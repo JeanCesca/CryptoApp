@@ -33,7 +33,6 @@ class DetailViewModel: ObservableObject {
             .combineLatest($coin)
             .map(mapDataToStatistics)
             .sink { [weak self] returnedArrays in
-                print(returnedArrays)
                 self?.overviewStatistics = returnedArrays.overview
                 self?.additionalStatistics = returnedArrays.additional
             }
